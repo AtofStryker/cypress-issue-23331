@@ -1,0 +1,23 @@
+{
+  "name": "cypress-issue-23331",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:path:config": "cypress open",
+    "test:path:env": "CYPRESS_SPEC_PATTERN=cypress/path-in-env/**/*.cy.js cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtofStryker/cypress-issue-23331.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtofStryker/cypress-issue-23331/issues"
+  },
+  "homepage": "https://github.com/AtofStryker/cypress-issue-23331#readme",
+  "devDependencies": {
+    "cypress": "^10.5.0"
+  }
+}
